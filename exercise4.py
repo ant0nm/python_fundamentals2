@@ -1,7 +1,6 @@
 # define the function
 def eightCharsOrLonger(my_string):
-    is8CharsOrLonger = True if len(my_string) >= 8 else False
-    return is8CharsOrLonger
+    return len(my_string) >= 8
 
 # test it out
 print(eightCharsOrLonger("abcdefg")) # False

@@ -1,7 +1,6 @@
 # define the negative function
 def negative(my_number):
-    isNegative = True if my_number < 0 else False
-    return isNegative
+    return my_number < 0
 
 # test it out
 print(negative(-1))

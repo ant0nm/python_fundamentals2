@@ -1,7 +1,6 @@
 # define the function
 def is_even(my_number):
-    isEven = True if my_number % 2 == 0 else False
-    return isEven
+    return my_number % 2 == 0
 
 # test it out
 print(is_even(2)) # True
